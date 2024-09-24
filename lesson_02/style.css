@@ -1,0 +1,51 @@
+
+/* селектор * выбирает все элементы и применяет к ним свойства по остаточному принципу */
+* {
+    color: rgb(92, 92, 92);
+}
+
+/* css селекторы по тегу */
+h1 {
+    color: darkcyan;
+    text-align: center;
+}
+
+p {
+    color: rgb(150, 41, 110);
+    text-align: center;
+}
+
+/* css селекторы по классу */
+.blue-text {
+    color: rgb(63, 63, 154);
+}
+
+.css-heading {
+    /* толщина шрифта */
+    font-weight: bold;
+     /* размер шрифта */
+    font-size: 18px;
+}
+
+.css-link {
+    text-decoration: none;
+    color: chocolate;
+}
+
+/* ul a {
+    color: cadetblue;
+} */
+
+.img-no-inline {
+    width: 380px;
+}
+
+.css-list-item {
+    font-style: italic;
+    color: rgb(103, 255, 80);
+}
+
+.css-priority {
+    text-decoration: underline;
+    color: rgb(250, 76, 76);
+}

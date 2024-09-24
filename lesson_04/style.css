@@ -1,0 +1,88 @@
+/* div {
+    background-color: bisque;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+  /* выр по гл оси */
+  justify-content: start;
+
+  /* выр по поперечной оси */
+  align-items: center;
+
+  /* св для выбора положения гл оси */
+  flex-direction: row;
+
+  /* Промежуток между элементами */
+  gap: 10px;
+  width: 100%;
+  min-height: 250px;
+  background-color: rgb(95, 150, 125);
+}
+
+.container > div {
+  width: 150px;
+  height: 200px;
+  /* margin: 10px; */
+  background-color: aquamarine;
+
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.item > h5 {
+  margin: 0;
+}
+
+.container2 {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  align-content: end;
+
+  min-height: 500px;
+  border: 1px solid black;
+  background-color: rgb(180, 182, 182);
+}
+
+.container2 > div {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(111, 176, 46);
+}
+
+/*  */
+.flex-card {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 15px;
+}
+
+.flex-card > p {
+    font-size: 12px;
+}
+
+.flex-card > img {
+    width: 70%;
+}
