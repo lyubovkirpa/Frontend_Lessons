@@ -1,0 +1,50 @@
+.method-list span  {
+    color: black;
+   text-wrap: bold;
+}
+
+.desc {
+color: darkred;
+}
+
+.method-list {
+color: red;
+list-style-type: none;
+}
+
+/* прятать элемент */
+.hide {
+    display: none;
+}
+
+.desc-info {
+    color: blue;
+}
+
+.btn {
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .change-heading {
+    background-color: rgb(187, 255, 187);
+  }
+  
+  .hide-list {
+    background-color: rgb(255, 196, 196);
+  }
+  
+  .create-elements {
+    background-color: rgb(224, 224, 255);
+  }
+
+  .btn:hover {
+    background-color: rgb(151, 22, 100);
+    color: white;
+  }
+
+  .dom-result {
+    color: orange;
+  }
